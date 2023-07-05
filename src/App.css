@@ -19,7 +19,7 @@ a {
   align-items: center;
   text-align: center;
   max-width: 1200px;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .title > h1 {
@@ -32,8 +32,8 @@ a {
 .followers > div {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
-  align-items: start;
+  justify-content: start;
+  align-items: flex-start;
   margin: 0 auto;
 }
 

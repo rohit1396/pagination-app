@@ -7,11 +7,10 @@
   margin: 20px;
   padding: 12px;
   background-color: #cceeff;
-  /* background: linear-gradient(to bottom left, #ccffff 0%, #cc99ff 100%); */
   border: none;
   border-radius: 10px;
   text-transform: capitalize;
-  box-shadow: 2px 2px 5px lightblue;
+  box-shadow: 2px 2px 15px lightblue;
 }
 
 .follower_img {
@@ -32,9 +31,17 @@
   padding: 3px 0;
   font-weight: 500;
   letter-spacing: 1.2px;
-  /* background-color: #b1cdcd; */
   background-color: #3399ff;
   color: #fff;
   border: none;
   border-radius: 15px;
+}
+
+/* ****************************************** Media Screen *************************************** */
+
+@media only screen and (max-width: 768px) {
+  .follower {
+    min-width: 224px;
+    margin: 20px auto;
+  }
 }
